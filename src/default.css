@@ -430,6 +430,37 @@ h6 { font-size: 16px;}
 	}
 
 }
+.footer .footer_content h5 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.text-center {
+    text-align: center!important;
+}
+@import "compass/css3";
 
+button{
+  border: none;
+}
+.ham {
+  text-indent: -99999px;
+  margin-top: 26.66667px;
+  right: -53.33333px;
+  width: 26.66667px;
+  height: 20px;
+  background: none;
+  position: relative;
+}
+.ham:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 26.66667px;
+  height: 4px;
+  background: #424342;
+  box-shadow: 0 8px 0 0 black, 0 16px 0 0 black;
+}
 
 
